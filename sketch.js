@@ -251,7 +251,6 @@ function updateQ(){
   // scale(scl);
   // image(masked,0,0);
   console.log(rels,tot);
-  console.log("test");
 }
 
 function Questionnaire(div, spec){
