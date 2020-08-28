@@ -1,0 +1,78 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+  color: white;
+  /*   text-shadow: 0 0 5px #fff */
+
+  /* 	color: black; */
+  /* 	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; */
+
+}
+
+canvas {
+  display: block;
+}
+
+.float {
+/*   float: left;
+  padding: 5px; */
+}
+
+.clear {
+  clear: both;
+}
+
+.front {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  padding: 15px;
+}
+
+@font-face {
+  font-family: 'Bankrus';
+  src: url('bankrus.ttf');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('Nunito-Regular.ttf');
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Bankrus', 'Ariel', sans-serif;
+}
+
+/* h1{ font-size: 5vw;} */
+
+.radio  {
+  font-family: 'Bankrus', 'Ariel', sans-serif;
+  clear: both;
+}
+
+body {
+  font-family: 'Nunito', 'Ariel', sans-serif;
+  font-size: 2em;
+}
+
+
+
+input[type=radio] {
+    border: 0px;
+    width:40px;
+    height:20px;
+/*   display:block; */
+}
+
+
+
+button{
+  font-size: 3em;
+}
